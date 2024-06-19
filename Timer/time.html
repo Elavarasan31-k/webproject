@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="time.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="container">
+    <div id="clock">
+        <h1 class="clock">00 : 00 : 00  AM</h1>
+        </div>
+    <div class="main">
+        <div id="second">
+            <input type="text" id="seconds" placeholder="Enter the Second's">
+            <button type="submit" id="btn-sec" onclick="sec()">Enter</button>
+            <div class="p-scroll">
+             <p id="sec-min"></p>
+             <p id="sec-hr"></p>
+             <p id="sec-day"></p>
+             <p id="sec-mon"></p>
+             <p id="sec-yr"></p>
+            </div>
+        </div>
+        <div id="minute">
+            <input type="text" id="minutes" placeholder="Enter the Minute's">
+            <button type="submit" id="btn-min" onclick="min()">Enter</button>
+            <p id="min-hr"></p>
+            <p id="min-day"></p>
+            <p id="min-mon"></p>
+            <p id="min-yr"></p>
+        </div>
+        <div id="hour">
+            <input type="text" id="hours" placeholder="Enter the Hour's">
+            <button type="submit" id="btn-hour" onclick="hr()">Enter</button>
+            <p id="hr-day"></p>
+            <p id="hr-mon"></p>
+            <p id="hr-yr"></p>
+        </div>
+        <div id="day">
+            <input type="text" id="days" placeholder="Enter the Day's">
+            <button type="submit" id="btn-day" onclick="day()">Enter</button>
+            <p id="day-mon"></p>
+            <p id="day-yr"></p>
+        </div>
+        <div id="month">
+            <input type="text" id="months" placeholder="Enter the Month's">
+            <button type="submit" id="btn-mon" onclick="mon()">Enter</button>
+           <p id="mon-yr"></p>
+        </div>
+        <div id="year">
+            <input type="text" id="years" placeholder="Enter the Year">
+            <button type="submit" id="btn-year" onclick="yr()">Enter</button>
+            <div id="yr-result"></div>
+        </div>
+</div>
+<div>
+
+    <script src="time.js"></script>
+</body>
+</html>

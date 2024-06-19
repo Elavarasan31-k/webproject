@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20vh auto 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(255,0,0,0.4);
+  
+}
+img{
+   width: 50%;
+   margin-left: 140px;
+   margin-bottom: 100px;
+   margin-top: 30px;
+   animation: fananime linear infinite;
+   border-radius: 50%;
+   
+}
+@keyframes fananime{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+button{
+    width: 60px;
+    height: 60px;
+    transition: 0.1s;
+}
+.btn-grp{
+    display: grid;
+    grid-template-areas: 'a b c d e';
+    padding: 20px;
+}
+button:active{
+    box-shadow: 10px 0px 10px 0px rgb(10, 10, 10);
+}
+#btn-on{
+    grid-area: a;
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-weight: 900;
+}
+#btn-off{
+    grid-area: b;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-weight: 900;
+}
+#btn-1{
+    grid-area: c;
+    background-color: wheat;
+    border: none;
+    border-radius: 50%;
+    color: rgb(10, 10, 10);
+    font-weight: 900;
+}
+#btn-2{
+    grid-area: d;
+    background-color: wheat;
+    border: none;
+    border-radius: 50%;
+    color: rgb(11, 11, 11);
+    font-weight: 900;
+}
+#btn-3{
+    grid-area: e;
+    background-color: wheat;
+    border: none;
+    border-radius: 50%;
+    color: rgb(13, 13, 13);
+    font-weight: 900;
+}
+
+

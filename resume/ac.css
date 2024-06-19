@@ -1,0 +1,25 @@
+
+   
+
+h1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+h2{
+    color: brown;
+    text-decoration:underline;
+}
+table{
+    width: 700px;
+    height: 900px;
+    background-color: rgb(240, 228, 211);
+    border: 10px solid rgb(240, 228, 211);
+    
+}
+.container{
+    padding: 25%;
+}
+
+
+

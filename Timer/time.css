@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgba(0,0,0,0.3); 
+}
+html{
+    scroll-behavior: smooth;
+ }
+ /* -----------------main div ------------------------------ */
+.main{
+    display: grid;
+    grid-template-columns: 20% 20% 20%; 
+}
+/* ---------------------subDiv------------------------------- */
+#second,#minute,#hour,#day,#month,#year{
+    width: 400px;
+    height: 300px;
+   box-shadow: 10px 10px 10px 10px;  
+}
+/* --------------clock------------------------ */
+.clock{ 
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+ }
+ /* ---------------input--------------------- */
+ input{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid black ;
+    background: none;
+    color: white;
+    font-weight: 900;
+ }
+ input::placeholder{
+    color: white;
+    font-weight: 900;
+    
+ }
+ button{
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    border: none;
+    font-weight: 900;
+ }
+ /* ------------seconds--------------- */
+ #second{
+    background-color: red;
+    margin-top: 20px;
+     margin-left: 100px;
+ }
+ #btn-sec{
+    outline: 2px solid white;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+ }
+ #btn-sec:hover{
+    outline: 2px solid red;
+    background-color:white;
+    color: red;
+ }
+ .p-scroll{
+    width: auto;
+    height: 160px;
+    overflow: scroll;
+}
+/* ------------Minutes--------------- */
+#minute{
+    background-color: green;
+    margin-top: 20px;
+    margin-left: 250px;   
+}
+#btn-min{
+    outline: 2px solid white;
+    background-color: green;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+ }
+ #btn-min:hover{
+    outline: 2px solid green;
+    background-color:white;
+    color: green; 
+ }
+/* -----------------Hours-------------------- */
+#hour{
+    background-color: orange;
+    margin-top: 20px;
+    margin-left: 400px;  
+}
+ #btn-hour{
+    outline: 2px solid white;
+    background-color: orange;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+ }
+ #btn-hour:hover{
+    outline: 2px solid orange;
+    background-color:white;
+    color: orange; 
+ }
+ /* ------------------Days------------------------- */
+ #day{
+    background-color: blue;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+ #btn-day{
+    outline: 2px solid white;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+ }
+ #btn-day:hover{
+    outline: 2px solid blue;
+    background-color:white;
+    color: blue;
+   
+ }
+ /* ------------------months------------------------- */
+ #month{
+    background-color: violet;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+ #btn-mon{
+    outline: 2px solid white;
+    background-color: violet;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+ }
+ #btn-mon:hover{
+    outline: 2px solid violet;
+    background-color:white;
+    color: violet;
+   
+ }
+ /* ------------------years------------------------- */
+ #year{
+    background-color: brown;
+    margin-top: 30px;
+    margin-left: 400px;
+} 
+ #btn-year{
+    outline: 2px solid white;
+    background-color:brown;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+ }
+ #btn-year:hover{
+    outline: 2px solid brown;
+    background-color:white;
+    color: brown;
+   
+ }
+
+ p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+ }
+ #yr-result{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+ }
+
+#mon-yr{
+    margin-top: 50px;
+}
+
+ 
+@media only screen and (max-width:600px){
+body{
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    
+}
+
+}
